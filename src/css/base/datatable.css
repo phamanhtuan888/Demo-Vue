@@ -1,0 +1,96 @@
+.table__container{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: calc(100% - 60px - 57px);
+    
+    
+}
+.m-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: unset;
+    border: unset;
+    box-sizing: border-box;
+    height: 100%;
+    display: block;
+    overflow: auto;    
+    
+}
+thead{
+    background-color: #F5F5F5;
+    position: sticky;
+    top: 0;
+    height: 48px;
+
+}
+tbody tr td{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+table, th, td {
+    
+    border: 1px solid #E0E0E0;
+  }
+thead tr th{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: GoogleSands Bold;
+}
+.m-table tr{
+    height: 48px;
+}
+
+.m-table tr td,
+.m-table tr th {
+    padding-left: 16px;
+    padding-right: 10px;
+}
+
+.m-table .text-align--left{
+    text-align: left;
+}
+
+.m-table .text-align--right{
+    text-align: right;
+}
+
+.m-table .text-align--center{
+    text-align: center;
+}
+.m-table tbody tr:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+.m-table tbody tr.m-row-selected{
+    background-color:#50B83C;
+}
+
+.btn-dropdown{
+  background-color: unset;
+  color: #1565C0;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+/* .btndropdown-icon{
+    background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -564px -365px;
+	width: 8px;
+	height: 5px;
+} */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}

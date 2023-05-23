@@ -1,0 +1,40 @@
+
+.total{
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px; 
+    font-family: GoogleSands;
+    color: #212121;
+}
+.standard-select{
+    height: 36px;
+    position: absolute;
+    right: 220px;
+    bottom: 10px; 
+    border: 1px #E0E0E0 solid;
+    border-radius: 4px;
+    font-family: GoogleSands;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.spann{
+    
+    font-family: GoogleSands;
+    color: #212121;
+    margin-right: 10px;
+   
+}
+.paging-number{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.select{
+    margin-right: 16px;
+}
