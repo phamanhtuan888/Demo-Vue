@@ -1,0 +1,60 @@
+@import url(./components/button.css);
+@import url(./components/combobox.css);
+@import url(../components/base/BaTable/table.css);
+@import url(./components/input.css);
+@import url(./components/dialog-detail.css);
+@import url(./components/toast.css);
+@import url(./components/popup.css);
+
+
+/* layout */
+@import url(../layout/TheHeader/header.css);
+@import url(../layout/TheMain/content.css);
+@import url(../layout/TheMenu/menu.css);
+
+@import url(./views/emloyee.css);
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+/* tránh sai font ở datetime */
+.heading{
+    font-size: 20px;
+    font-weight: 700px;
+}
+*{
+    font-family: Hai font;
+}
+
+@font-face {
+    font-family: Hai font;
+    /* src: url(../assets/font/GoogleSans-Regular.otf); */
+    src: url(../assets/font/GoogleSans-Regular.otf);
+}
+
+.m-flex{
+    display: flex;    
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.m-col-gap-8{
+    column-gap: 8px;
+}
+.m-row-gap-8{
+    row-gap: 8px;
+}
+.required{
+    color:#ff0000;
+}
+
+.m-row+.m-row{
+    margin-top: 14px;
+}

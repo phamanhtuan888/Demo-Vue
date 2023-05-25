@@ -1,0 +1,91 @@
+table{
+    width: 100%;
+    /* margin:10px 10px 0 10px;  */
+}
+.tableH{
+    width: 100%;
+    overflow:auto;
+    display: block;
+    white-space: nowrap;
+}
+.table_main{
+    /* margin: 20px; */
+    /* padding: 10px; */
+    /* width: calc(100% - 20px); */
+    /* overflow:auto;
+    display: block;
+    white-space: nowrap; */
+    /* box-sizing: border-box;  */
+}
+thead{
+    background-color: #ebebeb;
+    
+}
+.thead-position{
+    position: sticky;    
+    top: 0;
+}
+.table_main ,th ,td{
+    border: 1px solid rgb(218, 210, 210);
+    border-collapse: collapse;
+}
+.table_left , td{
+    padding-left: 10px;
+}
+.text-align-left {
+    text-align: start;
+    padding-left:20px ;
+}
+.cn {
+    z-index: 999;
+}
+.text-align-middle{
+    text-align: center;
+    padding: 0 10px;
+}   
+.text-align-middle_tk{
+    align-items: flex-start;
+    padding-left: 20px;
+}
+/* .center_box{
+    display: flex;
+    margin:  3px auto;
+} */
+
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.table__toolbar{
+    height: 36px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.table__paging{
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+}   
+.combobox{
+    width: 150px;
+    height: 20px;
+    background-color: unset;
+    border: 1px solid #333;
+}
+.combobox{
+    margin-right: 50px;
+    /* background-image: url(../../../assets/icon/downnnnn_icon.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; */
+}
+.spann {
+    margin-right : 10px ;
+}

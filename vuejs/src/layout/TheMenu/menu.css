@@ -1,0 +1,176 @@
+#menu{
+    width: 200px;
+    height: 100vh;
+    background-color: #000000dd;
+    margin: 0;
+    padding: 20px 12px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.menu-item__main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 10px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.menu-item{
+    height: 44px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    column-gap: 15px;
+    /* padding: 12px 12px; */
+    padding-left: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.menu-item__text{
+}
+.menu-item:hover{
+    background-color:#d0caca ;
+}
+.menu-item__icon{
+    width: 24px;
+    height: 24px;
+}
+.menu-button{
+    /* background-image: url(/assets/icon/layout_final.jpg);b */
+    background-image: url(../../assets/icon/layout_final.jpg);
+    background-color: #000000d9;    
+    width: 25px;
+    height: 25px;
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.menu-item__icon_kt{
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url(/assets/icon/favicon.ico); */
+    background-image: url(../../assets/icon/favicon.ico);
+    
+}
+
+
+
+.menu-item__icon-tq{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -33px -1587px;
+	width: 24px;
+	height: 24px;
+    border: none;    
+}
+.menu-item__icon-tm{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -78px -1588px;
+	width: 24px;
+    border: none;    
+	height: 24px;
+}
+
+.menu-item__icon-tg{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -121px -1590px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+.menu-item__icon-mh{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -121px -1590px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+
+}
+
+.menu-item__icon-bh{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -206px -1588px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+
+}
+
+.menu-item__icon-qlhd{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -254px -1589px;
+	width: 24px;
+    border: none;    
+	height: 24px;
+
+    
+}
+
+.menu-item__icon-kho{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -294px -1589px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+
+.menu-item__icon-ccdc{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -339px -1590px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+
+}
+
+.menu-item__icon-tscd{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -382px -1589px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+.menu-item__icon-thue{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -427px -1591px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+
+.menu-item__icon-gt{
+    
+	background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -471px -1590px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+
+.menu-item__icon-th{
+	background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -514px -1590px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+.menu-item__icon-nh{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -427px -1664px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+.menu-item__icon-bc{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -552px -1593px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}
+
+.menu-item__icon-pttc{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -251px -1667px;
+    width: 24px;
+    border: none;    
+	height: 24px;
+}

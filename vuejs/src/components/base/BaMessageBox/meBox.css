@@ -1,0 +1,24 @@
+.toast-message{
+   
+    background-color: #7d0a0a;
+    border: 4px, 4px, 4px, 4px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 173px;
+}
+.iconToast{
+    background-size: 68px 68px;
+    background-image: url(../../assets/icon/warning_icon.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    
+}
+
+.btn-close{
+    position: absolute;
+    width: 80px;
+    height: 36px;
+    background-color: #50B83C;
+    color: #fff;
+}

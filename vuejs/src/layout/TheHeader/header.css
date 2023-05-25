@@ -1,0 +1,98 @@
+/* các dạng selector trong css */
+/* 1. Element selector */
+
+/* 2.ID selector */
+
+/* 3.class selector */
+
+/* 4  group selector
+div,p,a{
+
+}
+/* 5.định nghĩa css cho tất cả các con cháu ..... */
+/* div p { 
+    
+}
+
+/* 6. chỉ dành cho các con... */
+/* div>p{
+
+} */
+
+/* 7. định nghĩa csscho phần tử liền kề phía sau  */
+/* div+div{
+
+}  */ 
+header{
+    height: 56px;
+    width: calc(100% - 200px);
+    float: right;
+}
+.formHeader{
+    display: flex;
+    flex-flow: column wrap;    
+    /* align-items: center; */
+    justify-content:space-between;
+}   
+
+.info_left{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin: 16px 16px 16px 8px;
+}
+.icon-menu_header{
+    /* background-image: url(/assets/icon/menu_icon.jpg); */
+    background-image: url(../../assets/icon/menu_icon.jpg);
+    width: 24px;
+    height: 24px;
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button_header{
+    /* background-image: url(/assets/icon/down_icon.jpg); */
+    background-image: url(../../assets/icon/down_icon.jpg);
+    width: 24px;
+    height: 24px;
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: unset;
+
+}
+.info_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 16px 16px 16px 0;
+    column-gap: 8px;
+}
+
+.button_toast{
+    /* background-image: url(/assets/icon/bell_icon.jpg); */
+    background-image: url(../../assets/icon/bell_icon.jpg);
+    width: 24px;
+    height: 24px;
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: unset;
+    
+}
+.button_user{
+    /* background-image: url(/assets/icon/user_icon.jpg); */
+    background-image: url(../../assets/icon/user_icon.jpg);
+    width: 24px;
+    height: 24px;
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: unset;
+    border: none;
+
+}

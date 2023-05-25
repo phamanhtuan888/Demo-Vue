@@ -1,0 +1,19 @@
+.btn {
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: unset;
+    padding: 0 12px ;
+    color: #Ffff;
+    outline: unset;
+}
+.btn:hover, .btn:focus{
+    background-color: #57C841;
+}
+.btn--default{
+     background-color: #50B83C !important;
+     color: #ffff !important;
+}
+.btn--default:hover, .btn--default:focus{
+    background-color: #104b07 !important;
+}
